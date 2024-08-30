@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQGWugsAdTDfzWcLehuFrIaz4bCniHAFqqA2toOyVWZiwjcvhoWCwhd0vMMHF59jywISNU9RxqjG2mSYopqzr2PURDjBVquz50defmPgpzEycca_-DZ89Ramg0q8bqFcarcZ4MP4cDPx0mBHcXss2wBiSISkReqCib6e6YVZPkv4Lu_s2LmMwv90F-PBlcut22gbEigK5dUqY_-d2nKLPt17vR-7Y-MUBIXv8f88mYgrwutcCSoz1J6TTmhb0NXrJpnj0dXLqZ6QmaBR9hQj-pVB7gs1kEHLpjGruK9kFdmfgXD0_W1QWVnl9ooLJiLQHoz9h0bn9dRew4f2Q95XA6_D3GJtnwAAAAGbsAlSAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
