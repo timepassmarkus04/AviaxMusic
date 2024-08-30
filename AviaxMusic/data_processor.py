@@ -22,3 +22,15 @@ def some_data_source():
 # Run the process
 if __name__ == "__main__":
     process_data()
+    
+# Navigate to your repository (if not already there)
+cd AviaxMusic
+
+# Stage the file for commit
+git add data_processor.py
+
+# Commit the changes with a message
+git commit -m "Add buffer size check to data processing"
+
+# Push the changes to the remote repository's main branch
+git push origin main
