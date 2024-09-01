@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from AviaxMusic import Carbon, YouTube, app
-from AviaxMusic.core.call import Aviax
+from AviaxMusic.core.call import Hotty
 from AviaxMusic.misc import db
 from AviaxMusic.utils.database import add_active_video_chat, is_active_chat
 from AviaxMusic.utils.exceptions import AssistantErr
