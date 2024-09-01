@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from AviaxMusic import YouTube, app
-from AviaxMusic.core.call import Hotty
+from AviaxMusic.core.call import Aviax
 from AviaxMusic.misc import db
 from AviaxMusic.utils.database import get_loop
 from AviaxMusic.utils.decorators import AdminRightsCheck
