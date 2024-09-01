@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
+from AviaxMusic.core.call import Hotty
 
 welcome = 20
 close = 30
