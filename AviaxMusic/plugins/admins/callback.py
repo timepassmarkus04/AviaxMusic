@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from AviaxMusic import YouTube, app
-from AviaxMusic.core.call import Aviax
+from AviaxMusic.core.call import Hotty
 from AviaxMusic.misc import SUDOERS, db
 from AviaxMusic.utils.database import (
     get_active_chats,
