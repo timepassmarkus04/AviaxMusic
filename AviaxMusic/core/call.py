@@ -37,7 +37,7 @@ from AviaxMusic.utils.database import (
 from AviaxMusic.utils.exceptions import AssistantErr
 from AviaxMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
 from AviaxMusic.utils.stream.autoclear import auto_clean
-from AviaxMusic.utils.thumbnails import get_thumb
+from AviaxMusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
