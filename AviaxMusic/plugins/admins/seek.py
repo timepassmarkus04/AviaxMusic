@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from AviaxMusic import YouTube, app
-from AviaxMusic.core.call import Hotty
+from AviaxMusic.core.call import Aviax
 from AviaxMusic.misc import db
 from AviaxMusic.utils import AdminRightsCheck, seconds_to_min
 from AviaxMusic.utils.inline import close_markup
