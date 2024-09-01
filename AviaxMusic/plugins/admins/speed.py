@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
+from AviaxMusic.core.call import Hotty
 from AviaxMusic.misc import SUDOERS, db
 from AviaxMusic.utils import AdminRightsCheck
 from AviaxMusic.utils.database import is_active_chat, is_nonadmin_chat
