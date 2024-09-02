@@ -10,10 +10,6 @@ def stats_buttons(_, status):
     ]
     sudo = [
         InlineKeyboardButton(
-            text=_["SA_B_2"],
-            callback_data="bot_stats_sudo",
-        ),
-        InlineKeyboardButton(
             text=_["SA_B_3"],
             callback_data="TopOverall",
         ),
