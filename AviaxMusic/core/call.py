@@ -630,6 +630,7 @@ class Call(PyTgCalls):
             if not isinstance(update, StreamAudioEnded):
                 return
             await self.change_stream(client, update.chat_id)
+            await self.stream_markup(client, update.chat_id)
 
 
 Aviax = Call()
