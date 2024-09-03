@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from AviaxMusic import LOGGER, YouTube, app
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import (
+from InflexMusic import LOGGER, YouTube, app
+from InflexMusic.misc import db
+from InflexMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -391,7 +391,7 @@ class Call(PyTgCalls):
                         original_chat_id,
                         text=_["call_6"],
                     )
-                img = await gen_thumb(videoid)
+                img = await get_thumb(videoid)
                 button = stream_markup(_, chat_id)
                 run = await app.send_photo(
                     chat_id=original_chat_id,
@@ -437,7 +437,7 @@ class Call(PyTgCalls):
                         original_chat_id,
                         text=_["call_6"],
                     )
-                img = await gen_thumb(videoid)
+                img = await get_thumb(videoid)
                 button = stream_markup(_, chat_id)
                 await mystic.delete()
                 run = await app.send_photo(
@@ -525,7 +525,7 @@ class Call(PyTgCalls):
                     db[chat_id][0]["mystic"] = run
                     db[chat_id][0]["markup"] = "tg"
                 else:
-                    img = await gen_thumb(videoid)
+                    img = await get_thumb(videoid)
                     button = stream_markup(_, chat_id)
                     run = await app.send_photo(
                         chat_id=original_chat_id,
