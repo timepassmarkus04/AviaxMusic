@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Inflex()
+app = Aviax()
 userbot = Userbot()
 
 
@@ -24,4 +24,3 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
-
