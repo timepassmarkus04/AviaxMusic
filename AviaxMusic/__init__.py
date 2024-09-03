@@ -1,4 +1,4 @@
-from AviaxMusic.core.bot import uvloop
+from AviaxMusic.core.bot import Aviax
 from AviaxMusic.core.dir import dirr
 from AviaxMusic.core.git import git
 from AviaxMusic.core.userbot import Userbot
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Aviax()
+app = Inflex()
 userbot = Userbot()
 
 
@@ -24,3 +24,4 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
+
