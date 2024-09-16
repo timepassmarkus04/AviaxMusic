@@ -83,7 +83,7 @@ confirmer = {}
 
 
 
-START_IMG_URL = ["https://envs.sh/wJd.jpg", "https://envs.sh/wJu.jpg", "https://envs.sh/wJt.jpg", "https://envs.sh/wJe.jpg", "https://envs.sh/wJw.jpg", "https://envs.sh/wJL.jpg", "https://envs.sh/wJ5.jpg", "https://envs.sh/wJK.jpg", "https://envs.sh/wJ4.jpg", "https://envs.sh/wJU.jpg", "https://envs.sh/wJl.jpg", "https://envs.sh/wJk.jpg", "https://envs.sh/wJ8.jpg",]
+    "START_IMG_URL", "https://envs.sh/wJd.jpg", "https://envs.sh/wJu.jpg", "https://envs.sh/wJt.jpg", "https://envs.sh/wJe.jpg", "https://envs.sh/wJw.jpg", "https://envs.sh/wJL.jpg", "https://envs.sh/wJ5.jpg", "https://envs.sh/wJK.jpg", "https://envs.sh/wJ4.jpg", "https://envs.sh/wJU.jpg", "https://envs.sh/wJl.jpg", "https://envs.sh/wJk.jpg", "https://envs.sh/wJ8.jpg",
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://envs.sh/wJ7.jpg"
