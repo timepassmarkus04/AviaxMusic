@@ -24,7 +24,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None))
 
-START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAEMvI9m0dI7MGUXqFUUizPDfPdVWG1aVAAC5xEAAqf0gVa6xUtNZBaP3jUE")
+START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAEM0PFm59MFdL8gmpmlmPzBl_fQns8G8gACwREAAlvWQVdCnagt0i6ORjYE")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
