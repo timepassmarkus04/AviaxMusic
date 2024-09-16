@@ -82,13 +82,13 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = (
-    "START_IMG_URL", "https://envs.sh/wJd.jpg", "https://envs.sh/wJu.jpg", "https://envs.sh/wJt.jpg", "https://envs.sh/wJe.jpg", "https://envs.sh/wJw.jpg", "https://envs.sh/wJL.jpg", "https://envs.sh/wJ5.jpg", "https://envs.sh/wJK.jpg", "https://envs.sh/wJ4.jpg", "https://envs.sh/wJU.jpg", "https://envs.sh/wJl.jpg", "https://envs.sh/wJk.jpg", "https://envs.sh/wJ8.jpg",
+START_IMG_URL = getenv(
+    "START_IMG_URL", "https://envs.sh/wJU.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://envs.sh/wJ7.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/eeca34b5b9ba863a1be45.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/wJk.jpg"
 STATS_IMG_URL = "https://envs.sh/wJh.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
